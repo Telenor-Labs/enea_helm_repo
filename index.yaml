@@ -1,49 +1,14 @@
 apiVersion: v1
 entries:
-  ocnssf:
-  - apiVersion: v1
-    appVersion: 22.1.1.0.0
-    created: "2022-08-02T12:22:41.736610758Z"
-    dependencies:
-    - name: ingress-gateway
-      repository: alias:ocnrf-helm-repo
-      version: 22.1.9
-    - name: egress-gateway
-      repository: alias:ocnrf-helm-repo
-      version: 22.1.9
-    - name: nrfclient
-      repository: alias:ocnrf-helm-repo
-      version: 22.1.5
-    - name: nsselection
-      repository: alias:ocnssf-helm-repo
-      version: 22.1.0
-    - name: nsconfig
-      repository: alias:ocnssf-helm-repo
-      version: 22.1.0
-    - name: nsavailability
-      repository: alias:ocnssf-helm-repo
-      version: 22.1.0
-    - name: nssubscription
-      repository: alias:ocnssf-helm-repo
-      version: 22.1.0
-    - name: nsauditor
-      repository: alias:ocnssf-helm-repo
-      version: 22.1.0
-    description: Oracle Communications NSSF
-    digest: a005cf17269ee031a6ea44ca5af6b54f1c08fbaa3e3fb882d026bfa7c925f9a7
-    name: ocnssf
-    urls:
-    - ocnssf-22.1.1.tgz
-    version: 22.1.1
-  test-hello-openshift-oracle:
+  test-hello-openshift-enea:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-02T12:22:41.737100149Z"
+    created: "2022-08-02T13:11:37.231348187Z"
     description: A Helm chart for Kubernetes
-    digest: 8a4df93e9ae971bfc7fa3fc44dc7465a7d73fffdbd3c5e63c0d285dddf03b539
-    name: test-hello-openshift-oracle
+    digest: 90452da5b147c572edab5210c5d2c4ff621029318721b2e2126a1ebfe6a7730a
+    name: test-hello-openshift-enea
     type: application
     urls:
-    - test-hello-openshift-oracle.tgz
+    - test-hello-openshift-enea.tgz
     version: 0.1.0
-generated: "2022-08-02T12:22:41.711957892Z"
+generated: "2022-08-02T13:11:37.230576878Z"
