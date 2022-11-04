@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  UDM:
+  - apiVersion: v2
+    appVersion: 4.0.2205
+    created: "2022-11-04T09:40:37.394771112Z"
+    description: Build UDM-4.0.2205.2206240732
+    digest: 8c8c5c9acec8476143f165cacd2cef6bc5e0703d20728b3c9c070e30baaa3664
+    name: UDM
+    type: application
+    urls:
+    - udmAusfHelm.tgz
+    version: 1.0.0
   test-hello-openshift-enea:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-05T07:22:09.355381913Z"
+    created: "2022-11-04T09:40:37.389654979Z"
     description: A Helm chart for Kubernetes
     digest: 90452da5b147c572edab5210c5d2c4ff621029318721b2e2126a1ebfe6a7730a
     name: test-hello-openshift-enea
@@ -11,4 +22,4 @@ entries:
     urls:
     - test-hello-openshift-enea.tgz
     version: 0.1.0
-generated: "2022-10-05T07:22:09.354071212Z"
+generated: "2022-11-04T09:40:37.388689273Z"
