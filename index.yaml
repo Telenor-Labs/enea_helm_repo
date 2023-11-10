@@ -1,55 +1,8 @@
 apiVersion: v1
 entries:
-  UDM:
-  - apiVersion: v2
-    appVersion: 4.1.2209
-    created: "2023-10-29T18:13:29.461217306Z"
-    description: Build UDM-4.1.2209.2210131210
-    digest: 6953fc3f79dc50adf9dd1a53be1194b70784616c5d34f6dde805e868900279fa
-    name: UDM
-    type: application
-    urls:
-    - UDM-1.0.0.tgz
-    version: 1.0.0
   stratum:
-  - apiVersion: "2"
-    appVersion: 4.1.4-1265022
-    created: "2023-10-29T18:13:29.466257407Z"
-    dependencies:
-    - name: common
-      repository: ""
-      tags:
-      - deployCommon
-      version: 4.2.1-GA
-    - name: ems01
-      repository: ""
-      tags:
-      - deployEms01
-      version: 4.2.1-GA
-    - name: ems02
-      repository: ""
-      tags:
-      - deployEms02
-      version: 4.2.1-GA
-    - name: regions
-      repository: ""
-      tags:
-      - deployRegions
-      version: 4.2.1-GA
-    - name: pytestclient
-      repository: ""
-      tags:
-      - deployPyTest
-      version: 4.2.1-GA
-    description: Helm chart for the stratum application.
-    digest: 0d3f41e5ecd7580ce7d421fa0c5558569ebb6e3c167f6c258d75b89302ad55f7
-    name: stratum
-    type: application
-    urls:
-    - stratum-4.2.1-GA.tgz
-    version: 4.2.1-GA
   - apiVersion: v1
-    created: "2023-10-29T18:13:29.463094281Z"
+    created: "2023-11-10T12:17:09.170528761Z"
     digest: a9aa56c79cc41b6750b30f98be807551e51d981d3d199a5b88c6f544c5e05b03
     name: stratum
     urls:
@@ -58,7 +11,7 @@ entries:
   test-hello-openshift-enea:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-29T18:13:29.467301548Z"
+    created: "2023-11-10T12:17:09.171441069Z"
     description: A Helm chart for Kubernetes
     digest: 90452da5b147c572edab5210c5d2c4ff621029318721b2e2126a1ebfe6a7730a
     name: test-hello-openshift-enea
@@ -66,4 +19,4 @@ entries:
     urls:
     - test-hello-openshift-enea.tgz
     version: 0.1.0
-generated: "2023-10-29T18:13:29.453918716Z"
+generated: "2023-11-10T12:17:09.167811636Z"
